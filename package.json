@@ -1,0 +1,21 @@
+{
+  "name": "test-api-palenca",
+  "version": "1.0.0",
+  "description": "test api palenca uber",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "node tests/index.test.js"
+  },
+  "author": "Daniel Tinoco Lara",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
